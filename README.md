@@ -1,6 +1,6 @@
 # Scientific-Computing-with-Python
 
-Notebooks for "Scientific-Computing-with-Python" lab at JU, 2021. 
+Notebooks and scripts for "Scientific-Computing-with-Python" lab at JU, 2021. 
 
 ## Content
 
