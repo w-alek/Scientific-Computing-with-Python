@@ -11,3 +11,4 @@ Notebooks and scripts for "Scientific-Computing-with-Python" lab at JU, 2021.
 * Lab 4 is a jupyter notebook file consist of solutions from week 4 (Functions)
 * Lab 5 is a jupyter notebook file consist of solutions from week 5 (Modules)
 * Lab 6 is a jupyter notebook file consist of solutions from week 6 (Classes)
+* Lab 7 is a jupyter notebook file consist of solutions from week 7 (Exceptions, Numpy)
