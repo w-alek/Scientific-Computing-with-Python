@@ -16,5 +16,6 @@ Notebooks and scripts for "Scientific-Computing-with-Python" lab at JU, 2021.
 * Lab 9 is a jupyter notebook file consist of solutions from week 9 (Matplotlib)
 * Lab 10 consist of jupyter notebook file with solutions from week 10 and png file required by one of the exercise (Pandas and virtual envs)
 * Lab 11 is a jupyter notebook file consist of solutions from week 11 (Scipy and numerical computing)
+* Lab 12 consist of jupyter notebook file with solutions from week 12 and script test file required by one of the exercise (Testing Python programs and networkx)
 
 
