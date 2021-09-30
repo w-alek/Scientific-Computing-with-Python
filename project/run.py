@@ -27,20 +27,18 @@ def func(path: str, resize: tuple, preprocess: str, extension: str) -> None:
     orig_path = os.path.join(RESULTS_PATH, 'original')
     os.makedirs(modified_path, exist_ok=True)
     os.makedirs(orig_path, exist_ok=True)
-    if preprocess not in ['global_centering', 'local_centering',
-    'global_standarization', 'local_standarization', 'zca']:
-        raise ValueError (f'{preprocess} is not supported version of preprocessing')
+    if preprocess == 'global_centering':
+        preprocess_func = preprocessing.global_centering
+    elif preprocess == 'local_centering':
+        preprocess_func = preprocessing.local_centering
+    elif preprocess == 'global_standarization':
+        preprocess_func = preprocessing.global_standarization
+    elif preprocess == 'local_standarization':
+        preprocess_func = preprocessing.local_standarization
+    elif preprocess == 'zca':
+        preprocess_func = preprocessing.zca
     else:
-        if preprocess == 'global_centering':
-            preprocess_func = preprocessing.global_centering
-        elif preprocess == 'local_centering':
-            preprocess_func = preprocessing.local_centering
-        elif preprocess == 'global_standarization':
-            preprocess_func = preprocessing.global_standarization
-        elif preprocess == 'local_standarization':
-            preprocess_func = preprocessing.local_standarization
-        else:
-            preprocess_func = preprocessing.zca
+        raise ValueError (f'{preprocess} is not supported version of preprocessing')
     copy(path, orig_path)
     copy(path, modified_path)
     looking(modified_path)
