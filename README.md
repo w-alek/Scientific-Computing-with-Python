@@ -20,4 +20,7 @@ Notebooks and scripts for "Scientific-Computing-with-Python" lab at JU, 2021.
 * Lab 13 is a jupyter notebook file consist of solutions from week 13 (PIL)
 * Lab 14 is a jupyter notebook file consist of solutions from week 14 (Monte Carlo)
 
+## Project 
+Run bash script e.sh (adapt data and results folder to your needs) and configure .env.sample (example of such file is .env file). Finally run main script run.py
+
 
